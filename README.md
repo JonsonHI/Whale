@@ -9,3 +9,5 @@
 如果大家觉得不错,我后期也会更新.
 
 下面上图
+
+![image](https://github.com/JonsonHI/Whale/raw/master/image/1.gif )  
