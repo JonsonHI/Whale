@@ -1,0 +1,14 @@
+rootProject.name = 'WhaleApp'
+include ':app'
+include ':react-native-qq'
+project(':react-native-qq').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qq/android')
+include ':react-native-wechat'
+project(':react-native-wechat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wechat/android')
+include ':rnkit-actionsheet-picker'
+project(':rnkit-actionsheet-picker').projectDir = new File(rootProject.projectDir, '../node_modules/rnkit-actionsheet-picker/android/app')
+include ':jpush-react-native'
+project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':RCTWeChat'
+project(':RCTWeChat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wechat/android')
